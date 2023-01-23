@@ -1,1 +1,1 @@
-# new-repo-template
+# bluexp-s3-storage
