@@ -1,11 +1,12 @@
 ---
-layout: landing-page
+layout: astra
 sidebar: sidebar
 permalink: index.html
-lead: Get started using Amazon S3 storage with your BlueXP system.
-summary: "Get started using Amazon S3 storage with your BlueXP system."
+lead: Get started using Amazon S3 storage with your BlueXP system (formerly Cloud Manager).
+summary: "Get started using Amazon S3 storage with your BlueXP system (formerly Cloud Manager)."
 ---
-= Amazon S3 storage
+
+= Amazon S3 storage documentation
 :hardbreaks:
 :nofooter:
 :icons: font

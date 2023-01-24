@@ -53,6 +53,10 @@ homepage:
           url: task-change-s3-bucket-settings.html
         - title: Use NetApp data services with S3 buckets
           url: task-s3-enable-data-services.html
+    - title: More information
+      links:
+        - title: Amazon S3 documentation for management outside of BlueXP
+          url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-buckets-s3.html
     - title: Blogs & community
       links:
         - title: NetApp Community
