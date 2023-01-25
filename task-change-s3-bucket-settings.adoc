@@ -20,7 +20,7 @@ Note that you can't change the bucket name, AWS account, region, or object lock 
 The bucket properties you can change include:
 
 * Whether Versioning is enabled or disabled for all objects in the bucket.
-* You can choose to apply tags Tags to the objects added to the bucket.
+* You can choose to apply tags to the objects that are added to the bucket.
 * Whether or not new objects added to the bucket are Encrypted, and the option used for encryption.
 
 You can change these bucket settings directly from BlueXP by clicking image:button-horizontal-more.gif[the three dots more button] > *Manage details* for a bucket.
@@ -37,7 +37,7 @@ Once enabled, if you want to stop versioning temporarily or permanently, you can
 
 image:screenshot-amazon-s3-versioning.png[A screenshot showing how to change the versioning setting for bucket.]
 
-== Change the tagging setting
+== Add or change tags for objects in the bucket
 
 Tags are metadata that you can use to group resources to identify applications, environments, regions, cloud providers, and more. Tags consists of a tag key and a tag value. You can add tags to a bucket so that the tags are applied to objects when they are added to the bucket. You can also change and delete tags and tag values.
 
@@ -51,8 +51,10 @@ After you add a tag, click *Add new tag* to add another tag - up to 10 per bucke
 
 Server-side encryption enables you to encrypt data at the Amazon S3 destination. Amazon S3 encrypts your data at the object level as it writes it to disk, and it decrypts it for you when you access it. You can change the encryption setting used for future objects when they are added to the bucket.
 
-Encryption is enabled by default using "Amazon S3 managed keys (SSE-S3)"" in new buckets created by BlueXP. https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html[Learn more about server-side encryption from the Amazon S3 documentation^].
+Encryption is enabled by default using "Amazon S3 managed keys (SSE-S3)" in new buckets created by BlueXP. https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html[Learn more about server-side encryption from the Amazon S3 documentation^].
 
 You can choose to enable encryption using "KMS keys stored in AWS Key Management Service (SSE-KMS)" or by using your own "customer-provided keys (SSE-C)".
 
 image:screenshot-amazon-s3-encryption1.png[A screenshot showing how to change the versioning setting for bucket.]
+
+If you choose "KMS keys stored in AWS Key Management Service (SSE-KMS)", you'll have addition choices to make. 

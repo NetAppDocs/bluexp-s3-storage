@@ -35,7 +35,7 @@ You can also select your Amazon S3 working environment and click *Sync data* fro
 +
 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html[Learn more about the Cloud Sync service^].
 
-* Use *Cloud Data Sense* (Classification) to scan your S3 buckets for personal and sensitive data. Cloud Data Sense can scan any bucket in the account, regardless if it was created for a NetApp solution.
+* Use *Cloud Data Sense* to scan your S3 buckets for personal and sensitive data. Cloud Data Sense can scan any bucket in the account, regardless of whether it was created for a NetApp solution.
 +
 To get started, select your Amazon S3 working environment and select the appropriate option from the *Classification* section of the Services panel to initiate scanning of your S3 buckets.
 +

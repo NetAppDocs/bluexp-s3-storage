@@ -12,9 +12,7 @@ sidebar:
     - title: Amazon S3 storage docs
       url: /index.html
     - title: Release notes
-      entries:
-        - title: What's new
-          url: /whats-new.html
+      url: /whats-new.html
     - title: Get started
       entries:
         - title: View your Amazon S3 buckets
@@ -26,7 +24,7 @@ sidebar:
         - title: Change S3 bucket settings
           url: /task-change-s3-bucket-settings.html
         - title: Use NetApp data services with S3 buckets
-          url: task-s3-enable-data-services.html
+          url: /task-s3-enable-data-services.html
     - title: Knowledge and support
       entries:
         - title: Register for support
