@@ -16,7 +16,7 @@ summary: Learn what's new in Amazon S3 storage in BlueXP.
 Learn what's new in Amazon S3 storage in BlueXP.
 
 // tag::whats-new[]
-== 5 February 2023
+== 5 March 2023
 
 === Ability to add new buckets from BlueXP
 

@@ -53,18 +53,12 @@ Server-side encryption enables you to encrypt data at the Amazon S3 destination.
 
 Encryption is enabled by default using "Amazon S3 managed keys (SSE-S3)" in new buckets created by BlueXP. https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html[Learn more about server-side encryption from the Amazon S3 documentation^].
 
-You can disable encryption (not advised), or you can choose to enable encryption using "AWS Key Management Service key (SSE-KMS)". Encryption is possible using your own customer-provided keys (SSE-C), but it is unavailable through the BlueXP UI - you must use Amazon interface.
+Alternatively, you can choose to enable encryption using the "AWS Key Management Service key (SSE-KMS)". Encryption is also possible using your own customer-provided keys (SSE-C), but this functionality is unavailable through the BlueXP UI - you'll need to use the Amazon interface.
 
-image:screenshot-amazon-s3-encryption1.png[A screenshot showing how to change the encryption setting for a bucket.]
+image:screenshot-amazon-s3-encryption1.png[A screenshot showing how to change the encryption key type used for a bucket.]
 
-If you choose "AWS Key Management Service key (SSE-KMS)", you can use the default AWS managed key, or you can specify a customer managed key that you've already created. 
+If you choose "AWS Key Management Service key (SSE-KMS)", you can choose an AWS KMS key that you've already created, or you can use an AWS KMS key ARN (Amazon Resource Name). 
 
 image:screenshot-amazon-s3-encryption2.png[A screenshot showing how to select alternate encryption settings for a bucket.]
-
-For SSE-KMS encryption you can use:
-
-* an AWS managed key
-* your own AWS KMS key
-* an AWS KMS key ARN (Amazon Resource Name)
 
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingKMSEncryption.html[Learn more about the AWS Key Management Service from the Amazon S3 documentation^] and about https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#key-mgmt[using customer keys versus AWS keys^].
