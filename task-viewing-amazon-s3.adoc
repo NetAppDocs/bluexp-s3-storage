@@ -19,7 +19,7 @@ You can see details about your S3 buckets, including the region, access policy, 
 
 .Steps
 
-. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html[Install a Connector^] in the AWS account where you want to view your Amazon S3 buckets.
+. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html[Install a Connector^] in the AWS account where you want to view your Amazon S3 buckets.
 
 . From the navigation menu, select *Storage > Canvas*.
 +

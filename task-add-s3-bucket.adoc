@@ -28,7 +28,7 @@ image:screenshot-add-amazon-s3-bucket.png[A screenshot showing the Add Bucket pa
 . In the Add bucket page, enter the required information to create the bucket and click *Apply*.
 +
 .. Enter the name you want to use for the bucket.
-.. Select the AWS account that will be the owner of the bucket. This can be the primary account where the Connector was deployed, or it can be a https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector[different account that you have added to BlueXP^].
+.. Select the AWS account that will be the owner of the bucket. This can be the primary account where the Connector was deployed, or it can be a https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector[different account that you have added to BlueXP^].
 .. Select the AWS region where the bucket will be created.
 .. Optionally, you can enable S3 object locking on the bucket to store objects using a write-once-read-many (WORM) model. If you plan to use object locking, you must enable it when creating the bucket. Enabling Object Lock also enables Versioning. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html[Learn more about object locking from the Amazon S3 documentation^].
 +
