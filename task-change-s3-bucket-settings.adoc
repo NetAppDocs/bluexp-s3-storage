@@ -23,7 +23,7 @@ The bucket properties you can change include:
 * You can choose to apply tags to the objects that are added to the bucket.
 * Whether or not new objects added to the bucket are Encrypted, and the option used for encryption.
 
-You can change these bucket settings directly from BlueXP by clicking image:button-horizontal-more.gif[the three dots more button] > *Manage details* for a bucket.
+You can change these bucket settings directly from BlueXP by clicking image:button-horizontal-more.gif[the three dots more button] for a bucket.
 
 image:screenshot-edit-amazon-s3-bucket.png[A screenshot showing how to select the Manager Details button to edit bucket properties.]
 
