@@ -1,0 +1,30 @@
+indexpage:
+  title: Amazon S3 storage documentation
+  lead: Get started using Amazon S3 storage with your BlueXP system.
+  summary: Get started using Amazon S3 storage with your BlueXP system.
+  keywords: amazon s3, storage, bluexp system
+  tiles:
+    - title: Get started
+      links:
+        - title: View your Amazon S3 buckets
+          url: task-viewing-amazon-s3.html
+    - title: Manage S3 buckets
+      links:
+        - title: Add S3 buckets
+          url: task-add-s3-bucket.html
+        - title: Change bucket settings
+          url: task-change-s3-bucket-settings.html
+        - title: Use NetApp data services with S3 buckets
+          url: task-s3-enable-data-services.html
+    - title: More information
+      links:
+        - title: Amazon S3 documentation for management outside of BlueXP
+          url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-buckets-s3.html
+    - title: Blogs & community
+      links:
+        - title: NetApp Community
+          url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+        - title: BlueXP blog
+          url: https://bluexp.netapp.com/blog/topic/cloud-manager
+        - title: Cloud webinars
+          url: https://bluexp.netapp.com/events
